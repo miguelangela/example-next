@@ -6,6 +6,8 @@ module.exports = widthTypescript(
         cssModules: true,
         cssLoaderOptions: {
             camelCase: true,
-        }
+        },
+        target: 'serverless',
     })
+    
 );
